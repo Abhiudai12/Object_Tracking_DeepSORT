@@ -4,7 +4,7 @@ This project implements an AI-powered player tracking system that detects and re
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 To build a robust video analytics pipeline that:
 - Detects football players using a custom-trained YOLOv11 model.
@@ -28,10 +28,10 @@ To build a robust video analytics pipeline that:
 
 ---
 
-## 🖼️ Output Example
+##  Output Example
 
 📹 **Final Output Video**  
-▶️ [Click to watch output video](./output_tracking.mp4)
+▶️ ![Tracking Output](output_tracking.gif)
 
 This video shows:
 - Bounding boxes on detected players.
@@ -40,7 +40,7 @@ This video shows:
 
 ---
 
-## 📊 Player Jersey Number Mapping (Summary)
+##  Player Jersey Number Mapping (Summary)
 
 | Track ID | Jersey Number |
 |----------|----------------|
@@ -60,7 +60,7 @@ This video shows:
 
 ---
 
-## 🧪 Improvements & Learnings
+##  Improvements & Learnings
 
 - * Reduced OCR frequency using a 15-frame gap per track to avoid jitter.
 - * Ignored unreasonably fast jumps to filter ID switching.
